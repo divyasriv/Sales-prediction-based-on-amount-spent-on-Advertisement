@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("../images/back.png");
+  
+    /* Control the height of the image */
+    min-height: 580px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(223, 240, 248);
+  }
+  
+  /* Full-width input fields */
+    input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: rgb(9, 56, 99);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .navbar-brand{
+      font-weight: 600;
+  }
+
+  .fle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(7, 59, 104);}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid{
+height: 100vh;
+display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: space-evenly;
+}
+.span{
+    color: rgb(43, 96, 109);
+}
